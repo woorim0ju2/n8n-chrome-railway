@@ -29,5 +29,4 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 # 포트 노출
 EXPOSE 5678
 
-# 올바른 시작 명령어 (n8n 대신 npm start 사용)
-CMD ["npm", "start"]
+# CMD 제거 - 기본 이미지의 시작 명령어 사용
